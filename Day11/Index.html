@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript">
+
+	//: ghi chú cho một dòng
+	
+	/* Ghi chú cho nhiều dòng 
+		Nội dung trong phần ghi chú hiện trang ngoài browser
+		Chỉ có lập trình viên mới nhìn thấy */
+	/*
+	// Lệnh đưa thông tin lên nội dung web
+	document.write("Lập trình PHP & My SQL </br>");
+	document.write(5);
+	document.write("<p style='color:red'>Lập trình PHP & My SQL</p> </br>");*/
+/*
+	// Bien 
+	a=5;
+	b=7;
+	c="hello";
+	d="";
+	n = 5;
+	n=n+2;
+	m = 10.5;
+	chuoi="Lập trình JS";
+	ngay = new Date;
+	document.write(n+"</br>");
+	document.write(chuoi+"</br>");
+	document.write(ngay+"</br>");
+
+	// Nối chuổi,tag và biến
+	document.write("Ngày giờ hiện tại là:"+ngay+"</br>");
+	
+	//Cách dùng cặp dấu "  " và dấu ' ' trong một dòng lệnh khi lồng nhau.
+	document.write('<p style="color:red">Lập trình PHP & My SQL</p> </br>');
+	
+	//Cac phep toan: +, -, *, /, %
+	f=a+c;
+	c=a+b;
+	document.write("<br/>Gia tri cua c: "+c);  
+	
+	//Phép gán: =
+	//Cac phep toan quan he: >, <, >=, <=, ==, !=
+	//Cac phep logic: && (and), || (or), ! (not)
+	//khac 0 : true, bang 0: false
+	
+	
+	//cac hop thoai:
+	//Hop thoai thong bao, chỉ có 1 nút OK:
+	/*alert("Vi du ve hop thoai alert!");
+	alert("Gia tri cua a la "+a);
+	document.write("<br/>Ket thuc vi du 1!");*/
+	/*
+	//Hop thoai nhap lieu:
+	tam=prompt("Nhap gia tri","");
+	document.write("<br/>"+tam);
+	tam=parseInt(tam); //parseFloat(): chuyen chuoi so thuc thanh so thuc
+	
+	//Kiểm tra chuổi hay số
+	//isNaN(so): true: chuoi, false: so*/
+	/*
+	//Hop thoai xac nhan:
+	traloi=confirm("Ban co muon thoat khong?");
+	document.write(traloi);
+	
+	*/
+	
+	
+	//Vong lap khong xac dinh:
+	//CT while:
+	/*while(dieu_kien)
+	{
+		lenh_p;
+	}*/
+	//Vd: Yeu cau nhap vao 1 so nguyen duong, neu nhap sai, yeu cau nhap lai. Neu nhap dung, in so vua nhap ra man hinh.
+	//n=parseInt(prompt("Nhap vao 1 so nguyen duong",""));
+	/*n=-1;
+	while(n<0)
+	{
+		n=parseInt(prompt("Nhap vao 1 so nguyen duong",""));
+	}
+	document.write("So vua nhap la: "+n);*/
+	
+	//CT do...while:
+	/*do{
+		lenh_p;
+	}while(dieu_kien);*/
+	
+	
+	//Ham trong javascript:
+	
+	function ten_ham(cac_tham_so) //co the co hoac khong, neu 2 tham so tro len thi cach nhau boi dau ","
+	{
+		lenh_p;
+		return giatri; //tuy ham, co the co hoac khong
+	}
+	
+	
+	
+	//Dang ham khong co tham so:
+	function tb()
+	{
+		document.write("Thong bao khan!!!");
+	}
+	
+	//Dang ham co tham so nhung khong co return:
+	
+	function tb2(ts)
+	{
+		document.write("Thong bao ve <b>"+ts+"</b>");
+	}
+	
+	//ham co 2 tham so:
+	function tinhtong(ts1, ts2)
+	{
+		tam=ts1+ts2;
+		//document.write("Tong cua "+ts1+" va "+ts2+" la:"+tam);
+		return tam;
+	}  
+	</script>
+</head>
+	
+<body>
+
+	<table width="600" border="1">
+	  <tr>
+		<td><script type="text/javascript">
+		//goi ham:
+		tb();
+		</script></td>
+		<td><script type="text/javascript">
+		//goi ham:
+		tb();
+		</script></td>
+		<td><script type="text/javascript">
+		//goi ham:
+		tb();
+		</script></td>
+	  </tr>
+	  <tr>
+		<td><script type="text/javascript">
+		//goi ham co 1 tham so:
+		tb2("Tai nan giao thong!");
+		</script></td>
+		<td><script type="text/javascript">
+		//goi ham:
+		tb2("Game!");
+		</script></td>
+		<td>&nbsp;</td>
+	  </tr>
+	  <tr>
+		<td><script type="text/javascript">
+		//goi ham co 2 tham so:
+		tinhtong(5,7);
+		</script></td>
+		<td><script type="text/javascript">
+		//goi ham co tham so:
+		tong=tinhtong(1,2);
+		document.write(tong);
+		</script></td>
+		<td>&nbsp;</td>
+	  </tr>
+	</table>
+	</script> 
+
+</body>
+</html>

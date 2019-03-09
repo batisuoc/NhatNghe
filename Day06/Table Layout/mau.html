@@ -1,0 +1,705 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tin tức online</title>
+<style type="text/css">
+<!--
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	margin-top: 10px;
+}
+#container {
+	border: 2px solid #00CCFF;
+}
+#header {
+	background-image: url(images/header01.jpg);
+}
+#thongbao {
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #0165B1;
+}
+#cuon {
+	width: 95%;
+}
+
+#right {
+	BACKGROUND-IMAGE: url(images/bg_right.jpg)
+}
+#menu a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	background-color: #0487CD;
+}
+
+#menu a:hover {
+	color: #F6F4F7;
+	text-decoration: underline;
+	text-align: center;
+	display: block;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	background-color: #00529E;
+}
+#jumpMenu {
+	MARGIN-TOP: 0px;
+	FONT-SIZE: 13px;
+	MARGIN-BOTTOM: 0px;
+	WIDTH: 100%;
+	COLOR: #F5FBFB;
+	BACKGROUND-COLOR: #46BBDE;
+	TEXT-ALIGN: center
+}
+
+#formtimkiem {
+	MARGIN-TOP: 5px;
+	MARGIN-BOTTOM: 5px;
+	border: 2px groove #996633;
+	background-color: #999900;
+	padding: 5px;
+}
+
+#tim {
+	COLOR: #F8F3F9;
+	BACKGROUND-COLOR: #46BBDE;
+	width: 110px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #996600;
+	border-right-color: #CCFF99;
+	border-bottom-color: #CCFF99;
+	border-left-color: #996600;
+	height: 16px;
+}
+
+
+#divUserInfo {
+	COLOR: #e1e1d5;
+	TEXT-ALIGN: center;
+	padding: 2px;
+	border: 2px groove #996633;
+	font-weight: bold;
+}
+.tieudebox {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 18px;
+	COLOR: #990000;
+	BACKGROUND-COLOR: #ffffff;
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+}
+
+.login_txt {
+	COLOR: #F3F7FF;
+	BACKGROUND-COLOR: #46BBDE;
+	width: 130px;
+}
+#formlogin {
+	margin: 0px;
+}
+
+#divUserInfo   EM  {
+	COLOR: #0165B1;
+	FONT-STYLE: normal
+}
+
+
+#binhchon {
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	COLOR: #333333;
+	text-align: justify;
+}
+
+#binhchon   P  {
+	MARGIN-TOP: 5px;
+	MARGIN-BOTTOM: 5px
+}
+
+#tinnoibatnhat {
+	BACKGROUND-IMAGE: url(images/hinhnentin.jpg);
+	COLOR: #333333;
+	padding: 5px;
+	text-align: justify;
+}
+#tinnoibatnhat    a {
+	FONT-WEIGHT: bold;
+	COLOR: #000066;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-size: 18px;
+}
+#tinnoibatnhat a:hover {
+	FONT-WEIGHT: bold;
+	COLOR: #990000;
+	text-decoration: underline;
+	text-align: center;
+	display: block;
+	font-size: 18px;
+}
+
+#tinxemnhieu  a,#tinnoibat a {
+	color: #01539F;
+	text-decoration: none;
+}
+
+
+#tinxemnhieu a:hover, #tinnoibat a:hover {
+	color: #76270B;
+	text-decoration: underline;
+}
+#quangcao_main {
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #006699;
+	border-bottom-color: #006699;
+}
+
+.tenloaitin {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 18px;
+	COLOR: #FFFFFF;
+	background-color: #0165B1;
+	padding-left: 10px;
+}
+#tin_trai      a   {
+	COLOR: #0165B1;
+	TEXT-DECORATION: none;
+	background-image: url(images/arrow.gif);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	display: block;
+	background-position: 10px 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: left;
+}
+#tin_trai    a:hover   {
+	COLOR: #990000;
+	TEXT-DECORATION: underline
+}
+#tin_phai a {
+	COLOR: #0165B1;
+	TEXT-DECORATION: none;
+	background-image: url(images/arrow.gif);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	display: block;
+	background-position: 10px 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: left;
+}
+#tin_phai a:hover {
+	COLOR: #990000;
+	TEXT-DECORATION: underline
+}
+#tin_trai  {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #006699;
+}
+
+-->
+</style>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" id="container">
+  <tr>
+    <td height="95" colspan="2" align="right" id="header"><script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','420','height','65','src','quangcao/qc1','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','quangcao/qc1' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="420" height="65">
+      <param name="movie" value="quangcao/qc1.swf" />
+      <param name="quality" value="high" />
+      <embed src="quangcao/qc1.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="420" height="65"></embed>
+    </object></noscript></td>
+  </tr>
+  <tr>
+    <td height="25" colspan="2" id="thongbao"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="110">Tin mới nhận</td>
+        <td><marquee id="cuon" behavior="scroll" scrollamount="2" scrolldelay="1" onmouseover="this.stop()" onmouseout="this.start()">
+Sản xuất điện bằng gương - Chứng khoán tiếp tục giảm điểm - Xe bay đầu tiên trên thế giới
+        </marquee>
+          &nbsp; </td>
+        <td width="280" align="right">Hôm nay 
+          <script type="text/javascript" src="HienNgayHomNay.js"></script></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="30" colspan="2" id="menu"><table width="100%" border="0" cellspacing="1" cellpadding="0">
+      <tr>
+        <td><a href="#">Trang chủ</a></td>
+        <td><a href="#">Âm nhạc</a></td>
+        <td><a href="#">Ảnh đẹp</a></td>
+        <td><a href="#">Diễn đàn</a></td>
+        <td><a href="$">Đăng ký</a></td>
+        <td><a href="#">Tìm kiếm</a></td>
+        <td><a href="#">Liên hệ</a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="610" valign="top" id="left"><table width="100%" border="0" cellpadding="0" cellspacing="0" id="main">
+      <tr>
+        <td width="50%" valign="top" id="tinnoibatnhat"><p align="right"><img height="10" src="images/icon-category.gif" 
+      width="10" />11/12/2008</p>
+          <p align="center"><img height="120" src="images/tinnoibatnhat.jpg" width="150" 
+      align="middle" /></p>
+          <p><a 
+      href="noidungtin.php?idTin=112">Kích 
+            cầu vẫn ế ẩm!</a></p>
+          <p align="justify">Tháng 12 hàng năm vốn được xem là tháng đẩy mạnh tiêu thụ 
+            hàng hoá, nhất là các mặt hàng tiêu dùng, xe máy, điện máy... Thế nhưng 
+            sức tiêu dùng năm nay đang rất ì ạch, dù đã có hàng loạt các chương trình 
+          để kích cầu như giảm giá, khuyến mãi...</p></td>
+        <td width="50%" valign="top" id=listtin><div id="TabbedPanels1" class="TabbedPanels">
+          <ul class="TabbedPanelsTabGroup">
+            <li class="TabbedPanelsTab" tabindex="0">Tin nổi bật</li>
+            <li class="TabbedPanelsTab" tabindex="0">Tin xem nhiều</li>
+          </ul>
+          <div class="TabbedPanelsContentGroup">
+            <div class="TabbedPanelsContent">
+              <table width="99%" border="0" cellspacing="0" id="tinnoibat">
+                <tbody>
+                  <tr>
+                    <td><img src="images/namcuc.jpg" width="30" height="30" /></td>
+                    <td valign="top" align="left"><a href="/GL/Khoa-hoc/2008/12/3BA0913F/">Nam Cực có nhiều loài   động vật hơn dự đoán</a> <a 
+            href="noidungtin.php?idTin=166"></a></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/trangsao.jpg" width="30" height="30" /></td>
+                    <td valign="top" align="left"><a href="/GL/Khoa-hoc/2008/12/3BA09003/">Nụ cười của trăng và   sao trên nền trời</a>  <a 
+            href="noidungtin.php?idTin=139"></a></td>
+                  </tr>
+                  <tr>
+                    <td><img height="30" src="images/kysuu.jpg" width="30" 
+            border="0" /></td>
+                    <td valign="top" align="left"><a 
+            href="noidungtin.php?idTin=122">Đón 
+                      Tết Kỷ Sửu ở nước ngoài</a></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/kiengiang.jpg" width="30" height="30" /></td>
+                    <td valign="top" align="left"><a href="/GL/Khoa-hoc/2008/11/3BA08E5A/">Phát hiện loài thực   vật mới ở Kiên Giang</a> <a 
+            href="noidungtin.php?idTin=115"></a></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/thiennhien.jpg" width="30" height="30" /></td>
+                    <td valign="top" align="left"><a href="/GL/Khoa-hoc/2008/11/3BA08850/">Những hình ảnh kỳ vĩ   của thiên nhiên</a><a 
+            href="noidungtin.php?idTin=102"></a></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/ran.jpg" width="30" height="30" /></td>
+                    <td valign="top" align="left"><a href="/GL/Khoa-hoc/2008/11/3BA08979/">Phát hiện thú vị về   loài rắn biển</a> <a 
+            href="noidungtin.php?idTin=65"></a></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/tn.jpg" width="30" height="30" /></td>
+                    <td valign="top" align="left"><a href="/GL/Khoa-hoc/2008/10/3BA072FC/">Thiên nhiên kỳ thú   nhìn từ trên cao</a> </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="TabbedPanelsContent">
+              <table width="99%" border="0" cellspacing="0" id="tinxemnhieu">
+                <tr>
+                  <td><img src="images/canthi.jpg" width="30" height="30" /></td>
+                  <td align="left" valign="top"><a href="/GL/Doi-song/2008/12/3BA099AC/">Cứ 2 trẻ đi học có 1   em bị cận thị</a> <a 
+            href="noidungtin.php?idTin=166"></a></td>
+                </tr>
+                <tr>
+                  <td><img src="images/usb.jpg" width="30" height="30" /></td>
+                  <td valign="top" align="left"><a href="/GL/Vi-tinh/Kinh-nghiem/2008/11/3BA0857F/">Mẹo vặt sử   dụng USB</a> </td>
+                </tr>
+                <tr>
+                  <td><img src="images/chup.jpg" width="30" height="30" /></td>
+                  <td valign="top" align="left"><a href="/GL/Vi-tinh/Kinh-nghiem/2008/11/3BA08485/">Thủ thuật   chụp màn hình video</a> </td>
+                </tr>
+                <tr>
+                  <td><img src="images/virus.jpg" width="30" height="30" /></td>
+                  <td valign="top" align="left"><a href="/GL/Vi-tinh/Kinh-nghiem/2008/11/3BA0832C/">Khắc phục   việc không vào được Windows sau diệt virus</a> </td>
+                </tr>
+                <tr>
+                  <td><img src="images/timkiem.jpg" width="30" height="30" /></td>
+                  <td valign="top" align="left"><a href="/GL/Vi-tinh/Kinh-nghiem/2008/10/3BA07ACC/">Công cụ tìm   kiếm ảnh bằng màu sắc</a> </td>
+                </tr>
+                <tr>
+                  <td><img src="images/ff.jpg" width="30" height="30" /></td>
+                  <td valign="top" align="left"><a href="/GL/Vi-tinh/Kinh-nghiem/2008/06/3BA03B02/">Chạy   Firefox 3 trên USB không cần cài đặt</a> </td>
+                </tr>
+                <tr>
+                  <td><img src="images/phim.jpg" width="30" height="30" /></td>
+                  <td valign="top" align="left"><a href="/GL/Vi-tinh/Kinh-nghiem/2008/06/3BA03725/">Thắp sáng   bàn phím trong đêm tối</a> </td>
+                </tr>
+                <tr>
+                  <td><img src="images/tainghe.jpg" width="30" height="30" /></td>
+                  <td valign="top" align="left"><a href="/GL/Vi-tinh/Kinh-nghiem/2008/04/3BA01A30/">Biến tai   nghe thành... micro</a> </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div></td>
+      </tr>
+      <tr>
+        <td colspan="2" id="quangcao_main"><script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','194','height','90','src','quangcao/qcn2','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','quangcao/qcn2' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="194" height="90">
+          <param name="movie" value="quangcao/qcn2.swf" />
+          <param name="quality" value="high" />
+          <embed src="quangcao/qcn2.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="194" height="90"></embed>
+        </object></noscript>
+  <img src="images/DongTien.gif" width="194" height="90" />
+  <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','194','height','90','src','quangcao/qc2','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','quangcao/qc2' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="194" height="90">
+    <param name="movie" value="quangcao/qc2.swf" />
+    <param name="quality" value="high" />
+    <embed src="quangcao/qc2.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="194" height="90"></embed>
+  </object></noscript></td>
+      </tr>
+      <tr>
+        <td valign="top" id="tin_trai"><table id="list1" cellspacing="3" cellpadding="3" width="100%" 
+              border="0">
+          <tr>
+            <td class="tenloaitin" >Chính 
+              Trị</td>
+          </tr>
+          <tr>
+            <td><a 
+                 
+	
+                  href="noidungtin.php?idTin=99">Người tiêu dùng luôn đối mặt với hàng giả</a></td>
+          </tr>
+          <tr>
+            <td><a 
+                  
+                  href="noidungtin.php?idTin=98">Tám 
+              bệnh nhân trên... một giường</a></td>
+          </tr>
+          <tr>
+            <td><a 
+                  
+                  href="noidungtin.php?idTin=97">Cử 
+              tri lo lắng vì giá tăng, trộm cướp</a></td>
+          </tr>
+          <tr>
+            <td class="tenloaitin" >Thể 
+              Thao</td>
+          </tr>
+          <tr>
+            <td><a 
+                 
+                  href="noidungtin.php?idTin=121">Bernabeu biến thành 'bệnh viện' quá tải</a></td>
+          </tr>
+          <tr>
+            <td><a 
+                  
+                  href="noidungtin.php?idTin=120">Liverpool chiếm ngôi đầu của Chelsea</a></td>
+          </tr>
+          <tr>
+            <td><a 
+                  
+                  href="noidungtin.php?idTin=119">Ronaldo giành Quả bóng Vàng 2008</a></td>
+          </tr>
+          <tr>
+            <td class="tenloaitin" >Du 
+              Lịch</td>
+          </tr>
+          <tr>
+            <td><a 
+                
+                  href="noidungtin.php?idTin=124">Vườn tĩnh lặng ở Thung lũng vàng</a></td>
+          </tr>
+          <tr>
+            <td><a 
+                  
+                  href="noidungtin.php?idTin=123">Đi 
+              tour Tết Tây - Giảm giá mỗi ngày</a></td>
+          </tr>
+          <tr>
+            <td><a 
+               
+                  href="noidungtin.php?idTin=122">Đón 
+              Tết Kỷ Sửu ở nước ngoài</a></td>
+          </tr>
+          <tr>
+            <td class="tenloaitin" >Tin 
+              Thế Giới</td>
+          </tr>
+          <tr>
+            <td><a 
+                 
+                  href="noidungtin.php?idTin=135">Venice chìm trong biển nước</a></td>
+          </tr>
+          <tr>
+            <td><a 
+               
+                  href="noidungtin.php?idTin=134">Sân 
+              bay Suvarnabhumi hoạt động trở lại</a></td>
+          </tr>
+          <tr>
+            <td><a 
+               
+                  href="noidungtin.php?idTin=34">Trung Quốc: Nhiều trẻ nhập viện vì sữa dỏm</a></td>
+          </tr>
+          <tr>
+            <td class="tenloaitin" >Điện 
+              Ảnh</td>
+          </tr>
+          <tr>
+            <td><a 
+                
+                  href="noidungtin.php?idTin=148">&quot;Chạng vạng&quot; của dòng phim chick flick</a></td>
+          </tr>
+          <tr>
+            <td><a 
+                 
+                  href="noidungtin.php?idTin=147">Johnny Trí Nguyễn bị kẹt lại Thái Lan</a></td>
+          </tr>
+          <tr>
+            <td><a 
+                 
+                  href="noidungtin.php?idTin=146">Reese Witherspoon đón Giáng sinh 
+              sớm</a></td>
+          </tr>
+        </table></td>
+        <td valign="top" id="tin_phai"><table id="list2" cellspacing="3" cellpadding="3" width="100%" 
+border="0">
+          <tr>
+            <td class="tenloaitin" >Kinh 
+              Tế</td>
+          </tr>
+          <tr>
+            <td><a 
+                 
+                  href="noidungtin.php?idTin=112">Kích cầu vẫn ế ẩm!</a></td>
+          </tr>
+          <tr>
+            <td><a 
+                  
+                  href="noidungtin.php?idTin=111">Chứng khoán tiếp tục giảm điểm</a></td>
+          </tr>
+          <tr>
+            <td><a 
+               
+                  href="noidungtin.php?idTin=104">Siết điểm thu đổi ngoại tệ</a></td>
+          </tr>
+          <tr>
+            <td class="tenloaitin" >Pháp 
+              luật</td>
+          </tr>
+          <tr>
+            <td><a 
+                
+                  href="noidungtin.php?idTin=114">Cả 
+              trăm cô gái đã bị bán ra nước ngoài</a></td>
+          </tr>
+          <tr>
+            <td><a 
+              
+                  href="noidungtin.php?idTin=113">Cảnh giác nạn trộm cắp dịp cuối năm</a></td>
+          </tr>
+          <tr>
+            <td><a 
+                 
+                  href="noidungtin.php?idTin=107">Bắt ổ thuốc lắc lớn trong công viên Nhạc Sơn</a></td>
+          </tr>
+          <tr>
+            <td class="tenloaitin" >Giáo 
+              Dục</td>
+          </tr>
+          <tr>
+            <td><a 
+                 
+                  href="noidungtin.php?idTin=118">Trao giải thưởng Lương Định Của</a></td>
+          </tr>
+          <tr>
+            <td><a 
+                 
+                  href="noidungtin.php?idTin=117">Giao lưu học sinh Việt Nam - Singapore</a></td>
+          </tr>
+          <tr>
+            <td><a 
+               
+                  href="noidungtin.php?idTin=116">Con 
+              chữ của đôi bạn nghèo</a></td>
+          </tr>
+          <tr>
+            <td class="tenloaitin" >Công 
+              Nghệ</td>
+          </tr>
+          <tr>
+            <td><a 
+                 
+                  href="noidungtin.php?idTin=170">Sản 
+              xuất điện bằng gương</a></td>
+          </tr>
+          <tr>
+            <td><a 
+                 
+                  href="noidungtin.php?idTin=169">Sáng chế 'tàu' vận chuyển thuốc bên trong người 
+              bệnh</a></td>
+          </tr>
+          <tr>
+            <td><a 
+                
+                  href="noidungtin.php?idTin=168">Nhà 
+              máy điện hạt nhân có thể 'chạy' khắp nơi</a></td>
+          </tr>
+          <tr>
+            <td class="tenloaitin" >Truyện 
+              Cười</td>
+          </tr>
+          <tr>
+            <td><a 
+                  
+                  href="noidungtin.php?idTin=80">Tặng số điện thoại</a></td>
+          </tr>
+          <tr>
+            <td><a 
+                  
+                  href="noidungtin.php?idTin=79">Cứ 
+              để con nó khóc</a></td>
+          </tr>
+          <tr>
+            <td><a 
+                
+                  href="noidungtin.php?idTin=78">Dưa 
+              chuột 
+              héo</a></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td width="150" valign="top" id="right"><select id="jumpMenu" onchange="MM_jumpmenu('parent',this,0)" 
+name="jumpMenu">
+      <option value="#" selected="selected">Liên kết websites</option>
+      <option 
+  value="http://www.laodong.com.vn">Lao Động</option>
+      <option 
+  value="http://www.google.com.vn">Google</option>
+      <option 
+  value="http://www.vnexpress.net">Vn Express</option>
+      <option 
+  value="http://www.tuoitre.com.vn">Tuổi Trẻ</option>
+      <option 
+  value="http://www.dantri.com.vn">Dân Trí</option>
+      <option 
+  value="http://www.thanhnien.com.vn">Thanh Niên</option>
+      <option 
+  value="http://www.nghenhac.info">Nghe Nhạc</option>
+      <option 
+  value="http://www.vietnamworks.com">Việt Nam Works</option>
+    </select>
+      <form id="formtimkiem" name="formtimkiem" method="post" action="">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><input onclick="this.value=''" name="tim" type="text" id="tim" value="Tìm kiếm" /></td>
+            <td><input type="image" name="imageField" id="imageField" src="images/search.gif" /></td>
+          </tr>
+        </table>
+      </form>
+      <div id="divUserInfo">
+        <p class="tieudebox"><em>user</em>login</p>
+        <form id="formlogin" name="formlogin" method="post" action="">
+          Username
+          <input name="username" type="text" class="login_txt" id="username" />
+          Password
+          <input name="password" type="password" class="login_txt" id="password" />
+          <input type="image" name="imageField2" id="imageField2" src="images/login.gif" />
+          <p><a href="#">Đăng ký</a></p>
+        </form>
+        </div>
+      <p class="tieudebox">BÌNH CHỌN</p>
+      <div id="binhchon">
+        <form id="form3" name="form3" action="kqbc.php" method="post" target="_blank">
+          <p>Theo bạn, thu nhập trên 500,000đ/tháng thì không được xem là phụ thuộc?
+            <input id="idBC" type="hidden" value="5" name="idBC" />
+          </p>
+          <p>
+            <label>
+            <input id="radio" type="radio" value="15" name="idPA" />
+            </label>
+            Đồng ý</p>
+          <p>
+            <label>
+            <input id="radio" type="radio" value="16" name="idPA" />
+            </label>
+            Không đồng 
+            ý</p>
+          <p>
+            <label>
+            <input id="radio" type="radio" value="17" name="idPA" />
+            </label>
+            Ý kiến khác</p>
+          <p>
+            <label>
+            <input id="button" onclick="kqbc(idPA)" type="button" value="Xem kết quả" name="Button" />
+            </label>
+          </p>
+        </form>
+      </div>
+      <div id="quangcao">
+        <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','150','height','150','src','quangcao/qc3','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','scale','noborder','movie','quangcao/qc3' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="150" height="150">
+          <param name="movie" value="quangcao/qc3.swf" />
+          <param name="quality" value="high" /><param name="SCALE" value="noborder" />
+          <embed src="quangcao/qc3.swf" width="150" height="150" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="noborder"></embed>
+        </object>
+      </noscript>
+<script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','150','height','150','src','quangcao/qc4','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','scale','noborder','movie','quangcao/qc4' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="150" height="150">
+  <param name="movie" value="quangcao/qc4.swf" />
+  <param name="quality" value="high" /><param name="SCALE" value="noborder" />
+  <embed src="quangcao/qc4.swf" width="150" height="150" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="noborder"></embed>
+</object>
+      </noscript>
+<script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','150','height','150','src','quangcao/qc5','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','scale','noborder','movie','quangcao/qc5' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="150" height="150">
+  <param name="movie" value="quangcao/qc5.swf" />
+  <param name="quality" value="high" /><param name="SCALE" value="noborder" />
+  <embed src="quangcao/qc5.swf" width="150" height="150" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="noborder"></embed>
+</object>
+      </noscript></div></td>
+  </tr>
+  <tr>
+    <td height="90" colspan="2" id="footer"><img src="images/footer.gif" width="760" height="90" /></td>
+  </tr>
+</table>
+<script type="text/javascript">
+<!--
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+//-->
+</script>
+</body>
+</html>

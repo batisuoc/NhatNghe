@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<form action="/action.php">
+		<table class="formdk" border="1" cellpadding="4" width="500" cellspacing="0" width="1000">
+			<caption>ĐĂNG KÍ THÀNH VIÊN CÂU LẠC BỘ YÊU NHẠC</caption>
+			<tr>
+				<th width="1">Họ tên</th>
+				<th width="50"><input class="in" type="text" id="hoten" name="hoten"></th>
+			</tr>
+			<tr>
+				<th>Tên đăng nhập</th>
+				<th><input type="text" class="in" id="username" name="username"></th>
+			</tr>
+			<tr>
+				<th>Mật khẩu</th>
+				<th><input type="password" class="in" name="pass" id="pass"></th>
+			</tr>
+			<tr>
+				<th>Gõ lại mật khẩu</th>
+				<th><input type="password" class="in" name="repass" id="repass"></th>
+			</tr>
+			<tr>
+				<th>Phái</th>
+				<th>
+					<input type="radio" name="phai" value="0">Nam
+					<input type="radio" name="phai" value="1">Nữ
+				</th>
+			</tr>
+			<tr>
+				<th>Ngoại ngũ</th>
+				<th>
+					<input type="checkbox" name="nation" id="anh" value="and">
+					<label for="anh">Anh</label>
+					<input type="checkbox" name="nation" id="phap" value="phap">
+					<label for="phap">Pháp</label>
+					<input type="checkbox" name="nation" id="hoa" value="hoa">
+					<label for="hoa">Hoa</label>
+				</th>
+			</tr>
+			<tr>
+				<th>Nghề nghiệp</th>
+				<th>
+					<select class="in" name="nghenghiep">
+						<option value="0">Bạn làm nghề gì ?</option>
+						<option value="1">Học sinh</option>
+						<option value="2">Giáo viên</option>
+						<option value="3">Nhân viên</option>
+					</select>
+				</th>
+			</tr>
+			<tr>
+				<th>Hình</th>
+				<th><input type="file" name="hinh" id="hinh"></th>
+			</tr>
+			<tr>
+				<th>Sở thích</th>
+				<th>
+					<textarea id="sothich" class="in" cols="50" rows="10">
+						
+					</textarea>
+				</th>
+			</tr>
+			<tr>
+				<th id="submitarea" colspan="2">
+					<input type="submit" name="dangky" id="dangki" value="Đăng kí">
+					<input type="submit" name="lamlai" id="xoa" value="Làm lại">
+					<input type="hidden" name="NgayDangKy" value="30/04/2009">
+				</th>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

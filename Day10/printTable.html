@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Print Table JavaScript</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        
+            var numCol = parseInt(prompt("Enter number",""));
+            var numRow = parseInt(prompt("Enter number",""));
+
+            document.write("<table border='1' width='700'>");
+            for(var i = 0; i < numRow; i++)
+            {
+                document.write("<tr>");
+                for(var j = 0; j < numCol; j++)
+                {
+                    document.write("<td>yolo</td>");
+                }
+                document.write("</tr>");
+            }
+            document.write("<table>");
+        </script>
+    </body>
+</html>

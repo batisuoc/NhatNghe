@@ -1,0 +1,29 @@
+.formdk th {
+	text-align: left;
+	color: #FFFF00;
+	background-color: #819FF7;
+	font-weight: bold;
+}
+
+.formdk caption {
+	background-color: #08088A;
+	color: #00FFFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+table.formdk {
+	table-layout: fixed;
+	width: 70%;
+	border-color: #08088A;
+}
+
+.formdk #submitarea {
+	text-align: center;
+}
+
+.formdk .in {
+	background-color: #99CCCC;
+
+}

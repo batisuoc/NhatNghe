@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sum on Form</title>
+	<style type="text/css">
+		.form {
+			width: auto;
+			text-align: center;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			background-color: #00FFFF;
+		}
+
+		.form input {
+			margin-bottom: 20px;
+			text-align: center;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			background-color: #4FCEBF;
+		}
+	</style>
+</head>
+<body>
+	<div class="form">
+		<input type="number" name="input1" id="input1" placeholder="Nhap so a"><br>
+		<input type="number" name="input2" id="input2" placeholder="Nhap so b"><br>
+		<input type="text" id="result" placeholder="Ket qua la"><br>
+		<button onclick="sum()">Tinh tong</button>
+	</div>
+	
+	<script type="text/javascript">
+		function sum() {
+			var a = parseInt(document.getElementById('input1').value);
+			var b = parseInt(document.getElementById('input2').value);
+			var sum = a + b;
+			document.getElementById('result').value = sum;
+		}
+	</script>
+</body>
+</html>

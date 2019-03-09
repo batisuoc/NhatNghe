@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+ <p>BÌNH CHỌN</p>  
+<div id="binhchon">
+  <form id="formbinhchon" name="formbinhchon" action="kqbc.php" method="post" target="_blank">
+    <p>Theo bạn, thu nhập trên 500,000đ/tháng thì không được xem là phụ thuộc?
+      <input id="idBC" type="hidden" value="5" name="idBC" />
+    </p>
+    <p>
+      <label>
+        <input id="radio" type="radio" value="15" name="idPA" />
+      </label>
+      Đồng ý</p>
+    <p>
+      <label>
+        <input id="radio" type="radio" value="16" name="idPA" />
+      </label>
+      Không đồng 
+      ý</p>
+    <p>
+      <label>
+        <input id="radio" type="radio" value="17" name="idPA" />
+      </label>
+      Ý kiến khác</p>
+    <p>
+      <label>
+        <input id="button" onclick="kqbc(idPA)" type="button" value="Xem kết quả" name="Button" />
+      </label>
+    </p>
+  </form>
+</div>
+</body>
+</html>

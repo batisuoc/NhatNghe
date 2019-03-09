@@ -1,0 +1,72 @@
+body {
+	font: "Times New Roman";
+	font-size: 14px;
+}
+
+#container {
+	margin: auto;
+	text-align: center;
+	border: #00CCFF solid 2px;
+}
+
+#header {
+	height: 95px;
+	background-image: url("images/header01.jpg");
+	/*text-align: right;*/
+}
+
+#header embed {
+	height: 45px;
+	width: 290px;
+}
+
+#thongbao {
+	height: 25px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: rgb(1, 127, 177);
+}
+
+#cuon {
+	width: 95%;
+}
+
+#menu {
+	height: 30px;
+}
+
+#menu a {
+	background-color: #0487CD;
+	color: #FFFFFF;
+	display: block;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}
+
+#hang4 {
+	/*height: 30px;*/
+}
+
+#left {
+	width: 610px;
+	vertical-align: top;
+}
+
+#right {
+	width: 150px;
+	vertical-align: top;
+	background-image: url("images/bg_right.jpg");
+}
+
+#footer {
+	height: 90px;
+}
+
+#footer img {
+	width: 760px;
+	height: 90px;
+}

@@ -1,0 +1,41 @@
+#tinnoibat {
+	width: 550px;
+	border: 2px solid #993300;
+	margin: auto;
+	min-height: 270px;
+}
+
+#tinnoibat #top1 {
+	min-height: 123px;
+	border-bottom: dotted 2px #993300;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+#tinnoibat #top1 a {
+	font-size: 18px;
+	color: #CC0033;
+	text-decoration: none;
+}
+
+#tinnoibat #top1 p {
+	margin-top: 2px;
+	margin-left: 3px;
+}
+
+#tinnoibat #top3 div {
+	width: 33.0%;
+	float: left;
+	text-align: center;
+
+}
+
+#tinnoibat #top3 img {
+	width: 170px;
+	height: 100px;
+}
+
+#tinnoibat #top3 a {
+	color: #006699;
+	text-decoration: none;
+}

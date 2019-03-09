@@ -1,0 +1,44 @@
+.info table {
+	table-layout: auto;
+	width: 100%;
+
+}
+
+.info caption {
+	color: #DE2222;
+}
+
+.info td ,.info th {
+	padding: 7px;
+	/*border: #919191 solid 1px;*/
+}
+
+.info th {
+	border-right: #919191 solid 1px;
+}
+
+.info .title th{
+	border-bottom: #F01A1A solid 2px;
+}
+
+.info .firsttitle {
+	color: #073FC3;
+}
+
+.info .coltitle {
+	text-align: left;
+	border-right: 0;
+}
+
+.info .fillColor td {
+	background-color: #9B9FA9;
+}
+
+.info .focus {
+	color: #FE0101;
+	font-size: 25px;
+}
+
+.info td {
+	text-align: left;
+}

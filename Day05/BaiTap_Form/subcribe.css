@@ -1,0 +1,19 @@
+.facebookform {
+    width: 450px;
+    height: 800px;
+}
+
+.signin {
+    background-color: #4F53C0;
+}
+
+.signin table {
+    width: 100%;
+    margin: 2px;
+}
+
+.signin td {
+    text-align: left;
+    padding: 3px;
+    color: #FEFEFE;
+}

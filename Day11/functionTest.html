@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sum 2 Number by Function</title>
+</head>
+<body>
+	<!-- Number 1 : <input type="number" name="input1"><br>
+	Number 2 : <input type="number" name="input2"><br> -->
+	<script type="text/javascript">
+		parseInt()
+		var input1 = parseInt(prompt("Enter number a", ""));
+		var input2 = parseInt(prompt("Enter number b", ""));
+
+		function sumNoParameter() {
+			var sum = input1 + input2;
+			return sum;
+		}
+
+		function sumHaveParameter(input1, input2) {
+			var sum = input1 + input2;
+			return sum;
+		}
+
+		document.write("<p>Khong co tham so : " + sumNoParameter() + "</p><br>");
+		document.write("<p>Co tham so : " + sumHaveParameter(input1,input2) + "</p><br>");
+	</script>
+</body>
+</html>

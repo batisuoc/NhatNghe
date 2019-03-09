@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery Review</title>
+	<script src="jquery-3.3.1.js"></script>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="jquery.css">
+</head>
+<body>
+	<form id="form1" name="form1" method="post" action="loaitin_them.php">
+		<table id="dstin" align="center" border="1" cellpadding="4" cellspacing="0" width="600">
+			<tr>
+				<td colspan="5" align="left">
+					<input type="button" name="xoahet" id="xoahet" value="Xóa">
+					<input type="button" name="chinhhet" id="chinhhet" value="Chỉnh">
+				</td>
+				<td align="right">
+					<a href="loaitin_them.php">Thêm loại tin</a>
+				</td>
+				<td align="right">
+					<select name="cbothemnhieu" id="cbothemnhieu">
+						<option value="1">1</option>
+						<option selected="selected" value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</td>
+			</tr>
+			<tr class="hang">
+				<th align="left"><input type="checkbox" id="chonhet"></th>
+				<th>idLt</th>
+				<th>Tên loại tin</th>
+				<th>Ẩn hiện</th>
+				<th>Thứ tự</th>
+				<th>Thể loại</th>
+				<th>Action</th>
+			</tr>
+			<tr class="hang">
+				<td><input type="checkbox" name="chon" id="chon" value="3"></td>
+				<td>3</td>
+				<td>Du lịch</td>
+				<td width="100">Đang hiện</td>
+				<td>2</td>
+				<td><a href="theloai_xemds.php">Tin xã hội</a></td>
+				<td align="center" width="100">
+					<a href="loaitin_chinh.php?idLT=3">Chỉnh</a>
+					<a href="loaitin_xoa.php?idLT=3" onclick="return confirm('Sao mày dám xóa ?');">Xóa</a>
+				</td>
+			</tr>
+			<tr class="hang">
+				<td><input type="checkbox" name="chon" id="chon" value="9"></td>
+				<td>9</td>
+				<td>Xã hội</td>
+				<td width="100">Đang hiện</td>
+				<td>3</td>
+				<td><a href="theloai_xemds.php">Tin xã hội</a></td>
+				<td align="center" width="100">
+					<a href="loaitin_chinh.php?idLT=9">Chỉnh</a>
+					<a href="loaitin_xoa.php?idLT=9" onclick="return confirm('Sao mày dám xóa ?');">Xóa</a>
+				</td>
+			</tr>
+		</table>
+	</form>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			//di chuot vao se doi mau theo css cua class hightlight
+			$('.hang').mouseover(function() {
+				$(this).addClass('hightlight');
+			});
+			//Khi lay chuot ra se tro lai nhu cu
+			$('.hang').mouseout(function() {
+				$(this).removeClass('hightlight');
+			});
+			//Tick check of all checkbox
+			$('#chonhet').click(function() {
+				//this.checked la thuoc tinh checked trong input
+				var status = this.checked;
+				$('input[name=chon]').each(function () {
+					this.checked = status;
+				});
+			});
+			//Chinh nhung dong da duoc tick/chon
+			$('#chinhhet').click(function() {
+				var listID = "";
+				$('input[name=chon]').each(function() {
+					if(this.checked) 
+					{
+						listID = listID + ',' + this.value;
+					}
+				});
+				window.location = "chinh.php?listID=" + listID;
+			});
+			//Xoa nhung dong da duoc tick/chon
+			$('xoahet').click(function() {
+				var listID = "";
+				$('input[name=chon]').each(function() {
+					if(this.checked == true)
+					{
+						listID = listID + ',' + this.value;
+					}
+				});
+				listID = listID.substr(1);
+				window.location = "xoa.php?listID=" + listID;
+			});
+		});
+	</script>
+</body>
+</html>

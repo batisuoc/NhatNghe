@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day Month Year JavaScript</title>
+	<style type="text/css">
+		.dmy {
+			color: 	#0000FF;
+			font-weight: bold;
+		}
+
+		#day {
+			color: #DC143C;
+		}
+
+		#month {
+			color: #00FFFF;
+		}
+
+		#year {
+			color: #FF1493;
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		date = new Date();
+		day = date.getDate();
+		month = date.getMonth() + 1;
+		year = date.getFullYear();
+		// document.write("Today is " + day + "/" + month + "/" + year);
+		document.write("<div>");
+		document.write("Today is : <br>");
+		document.write("<b id='day'>" + day + "</b>/<b id='month'>" + month + "</b>/<b id='year'>" + year + "</b>");
+		document.write("</div>");
+		console.log("Yolo");
+	</script>
+</body>
+</html>

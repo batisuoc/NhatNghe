@@ -1,0 +1,104 @@
+@charset "utf-8";
+#form1 {
+	width:950px;
+	height:auto;
+	border:hidden;
+}
+#hinh1 {
+	margin-top:45px;
+	margin-left:0;
+	float:left;
+}
+#hinh3 {
+	clear:left;
+}
+#khoi1 {
+	float:left;
+}
+#khoi2 {
+	border-right:2px solid #09F;
+	margin-left:0;
+	float:left;
+}
+
+#hinh11 {
+	float:left;
+	clear:right;
+}
+#khoi3 {
+	width:520px;
+	float:left;
+}
+td {
+	border:hidden;
+}
+.rdb {
+	padding-top:o;
+	padding-bottom:o;
+}
+
+
+
+#tdangky {
+	float:left;
+	width:500px;
+}
+
+#form1 caption {
+	text-align:right;
+	background-color:#000;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	padding-right:10px;
+	margin-left:5px
+}
+#tieude {
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:24px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#gioithieu {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#F00;
+	font-size:14px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+}
+.lb {
+	text-align:right;
+	width:80px;
+}
+#hoten {
+	width:250px;
+}
+#diachi {
+	width:350px;
+}
+#dienthoai {
+}
+#email {
+	width:250px;
+}
+#soluong {
+	width:100px;
+}
+#dangky {
+	margin-left:80px;
+}
+#tbdk {
+	border-collapse:collapse;
+	border-style:hidden;
+}
+#last {
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+	font-family:Tahoma, Geneva, sans-serif;
+	background-color:#000;
+	padding:3px;
+}

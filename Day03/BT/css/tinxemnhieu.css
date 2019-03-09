@@ -1,0 +1,39 @@
+#tinxemnhieu {
+	width: 250px;
+	border: 1px solid #0099CC;
+	overflow: hidden;
+	white-space: normal;
+	margin: auto;/*can chinh giua trang web*/
+}
+
+#tinxemnhieu a {
+	color: #CC3399;
+	text-decoration: none;
+}
+
+/*dinh dang khi luot chuot qua link*/
+#tinxemnhieu a:hover {
+	color: #0000FF;
+}
+
+#tinxemnhieu p {
+	background-color: #FFFFCC;
+	border: 1px solid #0099CC;
+	margin-top: 0px;
+	margin-bottom: -1px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+#tinxemnhieu h4 {
+	background-color: #0099CC;
+	color: #FFFF00;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}

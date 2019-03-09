@@ -1,0 +1,54 @@
+
+#danhlam{
+	width: 500px;
+	border: 5px solid #C60;
+}
+
+#danhlam caption {
+	color: #9F9;
+	text-transform: capitalize;
+	font-size: 18px;
+	background-color: #C60;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#danhlam td {
+	border-bottom: dotted 1px #C60;
+}
+
+#danhlam a {
+	color: #036;
+	text-decoration: none;
+	padding-left: 25px;
+	background-image: url(../images/forward1.gif);
+	background-repeat: no-repeat;
+}
+
+#danhlam .vien {
+	border-left: dotted 1px #C60;
+	border-right: dotted 1px #C60;
+}
+
+#weblink {
+	width: 658px;
+	border: 1px solid #039;
+}
+
+#weblink h3 {
+	background-color: #990;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#weblink a {
+	color: #903;
+	text-decoration: none;
+}
+
+#weblink p {
+	color: #036;
+	text-align: justify;
+	margin-left: 50px;
+}

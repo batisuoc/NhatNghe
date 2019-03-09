@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bang cuu chuong</title>
+</head>
+<body>
+	<!-- Number : <input type="number" id="input">
+	<button onclick="printMultiTable()">In Bang Cuu Chuong</button> -->
+	<script type="text/javascript">
+		// function printMultiTable() {
+		// 	var inNumber = document.getElementById("input").value;
+		// 	if (inNumber > 0 && inNumber < 10) {
+		// 		for (var i = 1; i <= 10; i++) {
+		// 			document.write(inNumber + " * " + i + " = " + inNumber*i + "<br>");
+		// 		}
+		// 	} else {
+		// 		alert("Chi nhap so tu 1 den 10");
+		// 	}
+		// }
+		var rightNumber = true;
+		while(rightNumber)
+		{
+			//Hien box cho nhap input
+			var inNumber = prompt("Enter number", "");
+			if(inNumber > 0 && inNumber < 10)
+			{
+				for (var i = 1; i <= 10; i++) {
+					document.write(inNumber + " * " + i + " = " + inNumber*i + "<br>");
+				}
+				rightNumber = false;
+			}
+		}
+		
+
+		
+	</script>
+</body>
+</html>
