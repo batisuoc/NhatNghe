@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Table</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+    <script src="../boostrap/js/bootstrap.bundle.js"></script>
+    <script src="../boostrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../boostrap/js/bootstrap.js"></script>
+    <script src="../boostrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<!-- <table class="table table-dark"></table> -->
